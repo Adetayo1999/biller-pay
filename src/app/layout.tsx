@@ -23,8 +23,8 @@ const space_grotesk = Space_Grotesk({
 });
 
 export const metadata = {
-  title: "BillerVest ",
-  description: "Billervest web app",
+  title: "BillerPay",
+  description: "Billerpay web app",
 };
 
 export default function RootLayout({

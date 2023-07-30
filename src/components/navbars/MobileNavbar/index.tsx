@@ -251,7 +251,7 @@ function MobileNavDropDown({
                 {activeNestedDropDown === item.name && (
                   <ul className="flex flex-col gap-y-3">
                     {item.nested_dropdown.map((i) => (
-                      <li>
+                      <li key={i.id}>
                         <Link
                           className="text-gray-400 text-sm font-semibold hover:text-[#7049F7]"
                           href={`/products/${item.name}/${i.id}`}

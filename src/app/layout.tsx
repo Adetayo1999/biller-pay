@@ -23,8 +23,9 @@ const space_grotesk = Space_Grotesk({
 });
 
 export const metadata = {
-  title: "BillerPay",
-  description: "Billerpay web app",
+  title: "BILLER PAY",
+  description:
+    "Biller Pay is a cutting-edge bill payment platform that utilizes the power of cryptocurrency to streamline payments and revolutionize the way bills are paid.",
 };
 
 export default function RootLayout({
